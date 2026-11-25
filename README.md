@@ -18,7 +18,11 @@ An agent that does not know what to do does not say "uh-oh" — it stalls, and t
 python3 main.py
 ```
 
-This writes the word to `/output/entry.txt` (UTF-8, no trailing newline).
+This writes the word to `/output/entry.txt` (UTF-8, no trailing newline). Override the output path with `ENTRY_OUTPUT` if the harness needs a different location:
+
+```sh
+ENTRY_OUTPUT=/tmp/entry.txt python3 main.py
+```
 
 ---
 
